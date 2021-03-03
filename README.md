@@ -1,5 +1,6 @@
 # generatePrimeNumbers
 
+The conditions are applied considering the limitations for deployment and running application on heerokuapp.com
 **App Link:** [https://generateprime.herokuapp.com/](https://generateprime.herokuapp.com/)
 
 # Terminal
