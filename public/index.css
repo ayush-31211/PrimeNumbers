@@ -1,0 +1,113 @@
+body {
+  overflow: hidden;
+}
+/* For Navigation Bar */
+#navForm {
+  padding: 0.5vw 1.5vw;
+  font-size: 1.5vw;
+  background-color: #0e77ff;
+}
+#navForm div {
+  padding: 0.5vw;
+  border-radius: 1vw;
+  display: inline-block;
+  cursor: pointer;
+}
+#navForm div:first-child {
+  color: white;
+  font-weight: bolder;
+}
+
+#navForm div:last-child {
+  background-color: white;
+  color: black;
+}
+
+/* Container */
+#container,
+#apiContainer {
+  padding: 2vw;
+  height: 95vh;
+}
+#form {
+  display: inline-flex;
+  width: 30vw;
+  margin: 4vw;
+  padding: 5vw;
+  float: left;
+  flex-direction: column;
+  border-radius: 2vw;
+  box-shadow: 0vw 0vw 4vw 1vw rgb(14 119 255 / 15%);
+}
+#result {
+  background-color: white;
+  display: inline-flex;
+  height: 80vh;
+  border: 2px solid;
+  width: 50vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  float: right;
+  border-radius: 2vw;
+  padding: 1vw;
+  margin: 1vw;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+#result ul {
+  padding: 0;
+}
+#result li {
+  display: inline-flex;
+  padding: 1vw;
+  border: 2px solid blue;
+  margin: 0.75vw;
+  width: 5vw;
+  justify-content: center;
+  border-radius: 20px;
+  font-size: 1.2vw;
+}
+
+input {
+  width: 10vw;
+}
+.input {
+  margin: 0.5vw 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5vw 1vw;
+  font-size: 1vw;
+}
+
+#warning {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide arrows/spinners from number input */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* General Styling */
+p {
+  font-size: 1.1vw;
+}
+
+h3 {
+  font-size: 1.9vw;
+}
