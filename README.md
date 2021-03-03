@@ -1,4 +1,4 @@
-# generatePrimeNumbers
+# PrimeNumbers
 
 The conditions are applied considering the limitations for deployment and running application on heerokuapp.com
 <br><br>
