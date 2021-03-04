@@ -1,6 +1,6 @@
 # PrimeNumbers
 
-The conditions are applied considering the limitations for deployment and running application on heerokuapp.com
+The conditions are applied considering the limitations for deployment and running application on herokuapp.com
 <br><br>
 **App Link:** [https://generateprime.herokuapp.com/](https://generateprime.herokuapp.com/)
 
